@@ -6,5 +6,15 @@ pipeline {
                 bat "npm install"
             }
         }
+         stage('test') {
+            steps {
+                bat "npm test"
+            }
+        }
+        stage('deploy') {
+            steps {
+                echo "Code is being deployed"
+            }
+        }
     }
 }
