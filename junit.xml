@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="1" failures="1" errors="0" time="0.873">
+  <testsuite name="GET /" errors="0" failures="1" skipped="0" timestamp="2023-01-20T07:51:48" time="0.812" tests="1">
+    <testcase classname="GET / should say Hello World" name="GET / should say Hello World" time="0.067">
+      <failure>Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: &quot;xyz&quot;
+Received: &quot;Hello World&quot;
+    at Object.toBe (/Users/Nirup/Projects/cypress-experiments/node-jenkins/test/hello.test.js:9:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
